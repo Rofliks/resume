@@ -3,89 +3,96 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Nikitin AA</title>
+        <link href="main.css" rel="stylesheet"/>
     </head>
     <body>
-        <table>
-            <tr>
-                <td>
-                    <img src="https://sun1.userapi.com/sun1-83/s/v1/ig2/QVOhXApCrN_D-YLwHyN4WU-VECIACFswgq1iDcsmFs0BJaYHrtSx-EXynNR_HVCh_iqUdlDQWc7OmhfIIpR9xwMP.jpg?size=960x1280&quality=96&type=album" width="200" alt="Нет фото">
-                </td>
-                <td>
+  
+        <div class="container">
+            <div class="info">
+                <div class="left">
+                    <img src="https://sun1.userapi.com/sun1-83/s/v1/ig2/QVOhXApCrN_D-YLwHyN4WU-VECIACFswgq1iDcsmFs0BJaYHrtSx-EXynNR_HVCh_iqUdlDQWc7OmhfIIpR9xwMP.jpg?size=960x1280&quality=96&type=album" alt="Нет фото" class="avatar">
+                </div>
+                <div class="right">
                     <h1>Никитин Алексей</h1>
-                    <p><em>Я <strong>программист</strong> 1с</em></p>
+                    <p>Я <strong>программист</strong> 1с</p>
                     <p>Я крутой(вроде как)</p>
-                </td>
-            </tr>
-        </table>
 
+                    <h4>Мои соцсети</h4>
+
+                    <a href="https://vk.com/rofliks" target="_blank">VK</a>
+                    |
+                    <a href="https://t.me/apex_pc" target="_blank">Telegram</a>
+                </div>
+
+            </div>
+            <br>
+            <div class="card bg-yellow"> 
+                <h2>Мои хобби</h2>
+                <ol>
+                    <li>Петь</li>
+                    <li>Играть</li>
+                    <li>Шутить</li>
+                </ol> 
+            </div>
+
+            <div class="card bg-green"> 
+            <h2>Опыт работы</h2>
+                <table class="table">
+
+                    <tr>
+                        <td>1bit</td>
+                        <td>programmer 1C</td>
+                        <td>2018-2019</td>
+                    </tr>
+                    <tr>
+                        <td>citadel</td>
+                        <td>programmer 1C</td>
+                        <td>2019-2021</td>
+                    </tr>
+                    <tr>
+                        <td>ava</td>
+                        <td>programmer 1C</td>
+                        <td>2021-2022</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="card bg-red">
+                <h2>Мой ВК</h2>
+                <ul class="linklist">
+                    <li>
+                        <a href="https://vk.com/rofliks" target="_blank">Перейти на страничку</a>
+                    </li>
+                    <li>     
+                        <a href="https://vk.com/rofliks" target="_blank">Или на эту</a>
+                    </li>  
+                </ul>  
+            </div>
+
+            <div class="contact">
+                <h2>Связаться со мной</h2>
+                <form action="/">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" placeholder="Введите имя...">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Ваше имя:</label>
+                            <input type="email" id="email" placeholder="Введите почту...">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Ваше сообщение:</label>                    
+                        <textarea id="name" rows="2" cols="15"></textarea>
+                    </div>
+
+                    <input class="btn" type="submit" value="Связаться">
+                    
+                </form>
+            </div>
         
-        
-
-        <hr>
-
-        <h2>Мои соцсети</h2>
-        <ul type="square">
-            <li><a href="https://vk.com/rofliks" target="_blank">VK</a></li>
-            <li><a href="https://t.me/apex_pc" target="_blank">Telegram</a></li>
-        </ul>
-
-        <h2>Мои хобби</h2>
-        <ol>
-            <li>Петь</li>
-            <li>Играть</li>
-            <li>Шутить</li>
-        </ol> 
-        
-        <hr>
-
-        <h2>Опыт работы</h2>
-        <table>
-            <tr>
-                <th>Company</th>
-                <th>position</th>
-                <th>year of work</th>
-            </tr>
-            <tr>
-                <td>1bit</td>
-                <td>programmer</td>
-                <td>2018-2019</td>
-            </tr>
-            <tr>
-                <td>citadel</td>
-                <td>programmer</td>
-                <td>2019-2021</td>
-            </tr>
-            <tr>
-                <td>ava</td>
-                <td>programmer</td>
-                <td>2021-2022</td>
-            </tr>
-        </table>
-
-        <hr>
-
-        <h2>Связаться со мной</h2>
-        <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите имя...">
-
-            <br>
-
-            <label for="email">Ваше имя:</label>
-            <input type="email" id="email" placeholder="Введите почту...">
-
-            <br>
-
-            <label for="text">Ваше сообщение:</label>
-            <br>
-            <textarea id="name" rows="2" cols="15"></textarea>
-
-            <br>
-
-            <input type="submit" value="Связаться">
-        </form>
-
-        <h2>Youtube видосы</h2>
-        <a href="youtube.html" target="_blank">Посмотерть список</a>
+        </div>
     </body>
 </html>
